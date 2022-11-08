@@ -14,7 +14,7 @@ function App() {
         <Toolbar>
            <Typography variant="h6" color="inherit">
             Gradebook
-            
+            <Button id="addAssignment" component={Link} to="/gradebook/add">Add Assignment</Button>
            </Typography>
         </Toolbar>
       </AppBar>
